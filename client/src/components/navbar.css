@@ -1,0 +1,90 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 15px 7%;
+    transition: .5s;
+}
+
+.logo{
+    width: 200px;
+    cursor:pointer;
+    transition: .5s;
+}
+
+ul{
+    flex:1;
+    list-style: none;
+    text-align:center;
+}
+
+ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.toggle-icon{
+    width: 40px;
+    cursor: pointer;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.search-box{
+    display:flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    max-height: 35px;
+    transition: .5s;
+}
+
+.search-box input{
+    padding: 6px;
+    background : transparent;
+    border: 0;
+    outline: 0;
+    color: #000000;
+    font-size: 18px;
+    max-width: 200px;
+    transition: .5s;
+}
+
+.search-box input::placeholder{
+    color:#000;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.search-box img{
+    width: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.light .navbar{
+    background:#fff;
+    color:#000000;
+}
+
+.light ul li{
+    color:#000000;
+}
+
+.light .search-box{
+    background:#000000;
+}
+
+.light .search-box input{
+    color: #000000;
+}
+.light .search-box input::placeholder{
+    color: #ffffff;
+}

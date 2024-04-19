@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: sans-serif;
+  }
+
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #ced8ff; */
+  }
+  .container.dark{
+    background-color: #ced8ff
+  } 
+  .container.light{
+    background-color: #ced8ff;
+  } 
+
+  .container .authtitle{
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: rgb(19, 107, 19);
+    font-weight:800;
+    font-style:oblique;
+    padding: 10px;
+    background-color: azure;
+  }
+  
+  .container .loginForm form{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:35px 35px;
+    background-color: black;
+    border-radius: 5px;
+  }
+  
+  .container .loginForm form h4{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    color:rgb(255, 255, 255);
+    /* background-color: aliceblue; */
+  }
+  
+  .container .loginForm form label{
+    margin-bottom: 20px;
+    margin-left: 5px;
+    color:purple;
+    font-size: medium;
+    /* background-color:azure; */
+    padding: 2px;
+  }
+  
+  .container .loginForm form .textInput{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 0px 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 254, 254);
+    color: maroon;
+  }
+  
+  .container .loginForm form .button{
+    width: auto;
+    padding: 8px 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: rgb(54, 190, 63);
+    outline: none;
+    border-radius: 5px;
+    color: rgb(5, 5, 5);
+    margin:5px;
+  }
+  
+  .container .loginForm form .button:hover{
+    transform: scale(1.05);
+    /* background-color: aliceblue; */
+    box-shadow: rgba(78, 13, 27, 0.35) 0px 5px 15px;
+
+  }
+
+  .container .loginForm form .btn-link{
+    /* background-color: cornsilk; */
+    color: rgb(255, 10, 10);
+    margin-left: 5px;
+    padding: 3px;
+  }
